@@ -93,7 +93,7 @@ endif
 set ruler
 
 " Height of the command bar
-set cmdheight=2
+set cmdheight=1
 
 " A buffer becomes hidden when it is abandoned
 set hid
@@ -157,7 +157,7 @@ try
 catch
 endtry
 
-set background=dark
+" set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -283,6 +283,9 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Remap ESC to jk
+imap jk <Esc>
+
 " Remap VIM 0 to first non-blank character
 map 0 ^
 
