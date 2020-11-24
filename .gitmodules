@@ -1,0 +1,6 @@
+[submodule "sources_non_forked/sources_non_forked/vimwiki"]
+	path = sources_non_forked/sources_non_forked/vimwiki
+	url = https://github.com/vimwiki/vimwiki
+[submodule "sources_non_forked/vimwiki"]
+	path = sources_non_forked/vimwiki
+	url = https://github.com/vimwiki/vimwiki
